@@ -1,0 +1,41 @@
+/* Estilos finales diseño vino */
+:root { --vino:#7b1f3c; --fondo:#f7f5f3; }
+*{box-sizing:border-box;}
+body{font-family:Arial, sans-serif; margin:0; background:var(--fondo); color:#222;}
+
+header{background:var(--vino); padding:12px 30px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100;}
+.header-left{display:flex; align-items:center; gap:16px;}
+
+.header-left img.logo{height:70px; width:auto; object-fit:contain;}
+
+.header-center{flex:1; display:flex; justify-content:center;}
+
+.header-center nav{display:flex; gap:100px; align-items:center;}
+
+.header-center a {color:rgb(255, 255, 255); text-decoration:none; font-weight:10000;} 
+
+.header-center input{color:rgb(0, 0, 0); text-decoration:none; font-weight:10000;}
+
+.search-bar{padding:10px 20px; border-radius:6px; border:none; width:400px;}
+
+.main-content{display:flex; justify-content:center; align-items:center; margin-top:80px; gap:120px; padding:20px;}
+
+.main-content img{width:450px; height:auto; border-radius:10px; cursor:pointer; transition:transform .2s; box-shadow:0 8px 20px rgba(0,0,0,0.06);}
+.main-content img:hover{transform:scale(1.03);}
+
+.subtitle{text-align:center; margin-top:10px; font-weight:700; color:var(--vino); text-transform:uppercase; letter-spacing:0.6px;}
+
+.container{max-width:1000px; margin:40px auto; background:white; padding:30px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+h1,h2{color:var(--vino); text-align:center;}
+
+.resultado-card{background:#fff; border:1px solid #eee; border-left:6px solid var(--vino); border-radius:8px; padding:14px; margin:12px 0;}
+
+.btn{display:inline-block; background-color:var(--vino); color:white; padding:8px 15px; border-radius:5px; text-decoration:none; font-weight:700;}
+
+table{border-collapse:collapse; width:100%; max-width:680px;}
+
+table th{background:#f2f2f2; padding:8px; text-align:left;}
+
+table td{padding:8px; border:1px solid #e8e8e8;}
+
+.footer{text-align:center; padding:20px; color:#666; font-size:14px;}
